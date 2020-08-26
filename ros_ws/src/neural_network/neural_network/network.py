@@ -53,7 +53,7 @@ class NN(Node): # class to subclass ros node (#1)
 
     # Publish detections (#5)
     def run_mono(self):
-        #process images hoe
+        #process images
         global class_names
         global np_image_global, new_data, exit_signal
 
